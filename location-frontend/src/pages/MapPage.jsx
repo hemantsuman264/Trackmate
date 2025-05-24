@@ -5,7 +5,7 @@ import L from "leaflet";
 import { io } from "socket.io-client";
 
 // Connect to backend
-const socket = io("http://localhost:3000");
+const socket = io("https://trackmate-t490.onrender.com");
 
 // Fix marker icons
 delete L.Icon.Default.prototype._getIconUrl;
